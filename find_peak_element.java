@@ -33,7 +33,7 @@ public int findPeak(int[] A) {
     }
     
 Solution 3: 
-Same algorithm but consider all condition, can pass leetcode
+Same algorithm as Solution 2 but consider all condition, can pass leetcode
 public int findPeakElement(int[] num) {
         // write your code here
         if(num==null||num.length<=1) return 0;
