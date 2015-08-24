@@ -1,4 +1,4 @@
-Solution 1 : use two number to track the number of previous level and current level
+Solution 1 : use two number to track the number of previous level and current level. Can use linkedlist or arraylist to build a queue, if we use priority queue to build it, the element should be comparable
 public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
